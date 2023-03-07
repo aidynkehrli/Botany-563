@@ -3,3 +3,5 @@ A phylogenetic analysis of the genus Gonioctena (Coleoptera, Chrysomelidae) base
 
 I chose to use mafft to align my data sequences for this assignment. I only aligned a little chunk of my data as of right now, but will keep working on it tomorrow and thursday. 
 [beetles_data_aligned.txt](https://github.com/aidynkehrli/Botany-563/files/10799770/beetles_data_aligned.txt)
+
+I had a lot of trouble running my data through the packages on R. I will have to ask Claudia what I should do to fix this problem during office hours next class. 
