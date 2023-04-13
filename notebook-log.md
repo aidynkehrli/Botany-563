@@ -5,3 +5,5 @@ I chose to use mafft to align my data sequences for this assignment. I only alig
 [beetles_data_aligned.txt](https://github.com/aidynkehrli/Botany-563/files/10799770/beetles_data_aligned.txt)
 
 I had a lot of trouble running my data through the packages on R. I will have to ask Claudia what I should do to fix this problem during office hours next class. 
+
+My computer would not let me install or run mr bayes. I will have to ask Claudia next class. 
