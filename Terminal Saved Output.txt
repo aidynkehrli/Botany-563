@@ -1,0 +1,61 @@
+Last login: Wed Apr 26 15:55:38 on ttys000
+/Users/aidynkehrli/Desktop/iqtree-1.6.12-MacOSX/bin/iqtree ; exit;
+(base) aidynkehrli@Aidyns-MacBook-Pro ~ % /Users/aidynkehrli/Desktop/iqtree-1.6.12-MacOSX/bin/iqtree ; exit;
+IQ-TREE multicore version 1.6.12 for Mac OS X 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Command-line examples (replace 'iqtree ...' by actual path to executable):
+
+1. Infer maximum-likelihood tree from a sequence alignment (example.phy)
+   with the best-fit model automatically selected by ModelFinder:
+     iqtree -s example.phy
+
+2. Perform ModelFinder without subsequent tree inference:
+     iqtree -s example.phy -m MF
+   (use '-m TEST' to resemble jModelTest/ProtTest)
+
+3. Combine ModelFinder, tree search, ultrafast bootstrap and SH-aLRT test:
+     iqtree -s example.phy -alrt 1000 -bb 1000
+
+4. Perform edge-linked proportional partition model (example.nex):
+     iqtree -s example.phy -spp example.nex
+   (replace '-spp' by '-sp' for edge-unlinked model)
+
+5. Find best partition scheme by possibly merging partitions:
+     iqtree -s example.phy -sp example.nex -m MF+MERGE
+   (use '-m TESTMERGEONLY' to resemble PartitionFinder)
+
+6. Find best partition scheme followed by tree inference and bootstrap:
+     iqtree -s example.phy -spp example.nex -m MFP+MERGE -bb 1000
+
+7. Use 4 CPU cores to speed up computation: add '-nt 4' option
+
+---
+PoMo command-line examples:
+1. Standard tree inference (HKY model, empirical nucleotide frequencies):
+     iqtree -s counts_file.cf -m HKY+P
+
+2. Set virtual population size to 15:
+     iqtree -s counts_file.cf -m HKY+P+N15
+
+3. Use GTR model and estimate state frequencies with maxmimum lilelihood:
+     iqtree -s counts_file.cf -m GTR+P+FO
+
+4. Polymorphism-aware mixture model with N=5 and weighted binomial sampling:
+     iqtree -s counts_file.cf -m "MIX{HKY+P{EMP},JC+P}+N5+WB"
+
+---
+To show all available options: run 'iqtree -h'
+
+Have a look at the tutorial and manual for more information:
+     http://www.iqtree.org
+
+
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+
+[Process completed]
+
