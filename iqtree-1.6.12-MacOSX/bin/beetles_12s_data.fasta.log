@@ -1,0 +1,11 @@
+IQ-TREE multicore version 1.6.12 for Mac OS X 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    Aidyns-MacBook-Pro.local (SSE4.2, 8 GB RAM)
+Command: ./iqtree -s beetles_12s_data.fasta -bb 1000 -nt AUTO
+Seed:    500793 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed May  3 12:28:53 2023
+Kernel:  SSE2 - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file beetles_12s_data.fasta ... ERROR: File not found beetles_12s_data.fasta
