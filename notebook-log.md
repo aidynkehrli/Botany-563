@@ -5,7 +5,7 @@ https://pubmed.ncbi.nlm.nih.gov/11975339/
 
 SEQUENCE ALIGNMENT USING CLUSALW: 
 
-I attemped to download miniconda (https://docs.conda.io/en/latest/miniconda.html), but was unable to initially. After a little while, I was able to install miniconda and use it to install ClusalW. Once miniconda was downloaded, I used the code "conda install -c bioconda clustalw" to install ClusalW. 
+I attempted to download miniconda (https://docs.conda.io/en/latest/miniconda.html), but was unable to initially. After a little while, I was able to install miniconda and use it to install ClusalW. Once miniconda was downloaded, I used the code "conda install -c bioconda clustalw" to install ClusalW. 
 
 Additionally, I downloaded MAFFT (https://mafft.cbrc.jp/alignment/software/).
 
